@@ -1,0 +1,3 @@
+# Stack Overflow in Recursive Factorial Function
+
+This repository demonstrates a common error in recursive functions: stack overflow due to a missing base case or an incorrect base case for handling large input values.  The `foo` function calculates the factorial of a number, but it lacks sufficient checks to prevent excessive recursion leading to stack overflow.  The solution provides a revised version that prevents the stack overflow by introducing better termination conditions.
